@@ -1,0 +1,33 @@
+body {
+    background-color: green;
+  }
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .dices {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .dice {
+    padding: 4px;
+    background-color: white;
+    width: 104px;
+    height: 104px;
+    border-radius: 10%;
+    display: grid;
+    place-items: center;
+    box-shadow: inset 0 5px white, inset 0 -5px #bbb, inset 5px 0 #d7d7d7,
+      inset -5px 0 #d7d7d7;
+  }
+  
+  .dice > span {
+    color: black;
+    font-weight: 800;
+    font-size: 50px;
+    user-select: none;
+  }
+  
